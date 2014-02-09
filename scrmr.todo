@@ -1,0 +1,8 @@
+☐ IE<9: display links to Chrome Fx Opera
+☐ remove all irrelevant code for IE<9
+☐ remove all irrelevant code
+☐ cross browser tests:
+    ✔ select element appearance in IE @done (2014-02-08 20:26)
+☐ refactor Scrmr
+☐ minify resources
+☐ git
