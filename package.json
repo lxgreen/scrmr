@@ -1,0 +1,29 @@
+{
+  "name": "scrmr",
+  "version": "0.0.1",
+  "description": "classic screamer in HTML",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgreen/scrmr.git"
+  },
+  "keywords": [
+    "screamer"
+  ],
+  "author": "lxgreen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxgreen/scrmr/issues"
+  },
+  "engines": {
+      "node": "0.10.x"
+  }
+}
