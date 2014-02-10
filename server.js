@@ -6,4 +6,8 @@ app.configure(function () {
         express.static(__dirname) //where your static content is located in your filesystem
     );
 });
-app.listen(5000); //the port you want to use
+
+var port = Number(process.env.PORT || 5000);
+app.listen(port, function() {
+  console.log("Listening on " + port);
+});
