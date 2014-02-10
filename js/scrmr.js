@@ -1,6 +1,6 @@
 ;(function(w,d,u){
     this.Scrmr = this.Scrmr || {
-        base : '//localhost:8080',
+        base : '//peaceful-oasis-5931.herokuapp.com',
         css : '/css/scrmr.css',
         hand : '/img/hand.png',
         boo : '/img/scrmr.png',
