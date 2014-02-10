@@ -14,7 +14,7 @@
 
 div#scrmr{transition: transform 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease;-ms-transition: -ms-transform 0.5s ease; min-width:777px; overflow: visible; margin: 0; padding : 0; box-sizing: border-box; width: 100%; z-index: 666666; height: 113px;position: fixed; background: black url('../img/grunge.jpg') repeat; top:0; left:0; bottom: 113px; font-family: misfits; font-size: 32px !important; line-height:32px !important; color: #22D80A; -webkit-touch-ctransformout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none; text-align: left;}
 div#scrmr.scrmr-hidden {transform: translateY(-113px);-webkit-transform: translateY(-113px);-ms-transform: translateY(-113px);}
-div#scrmr img {display: block;position: absolute;top: 42px;right:0;z-index: 666666;}
+div#scrmr img {display: block;position: absolute;top: 42px;right:0;z-index: 666666; width: 272px; height: 108px;}
 .scrmr-vanish {opacity:1; transition: opacity 0.5s ease; -webkit-transition: opacity 0.5s ease;}
 div#scrmr.scrmr-hidden img {opacity:0;}
 div#scrmr-drag {position: relative; box-sizing: border-box; margin: 9px; width: 144px; height: 81px; background: #bada55 url(../img/scrmr.png) no-repeat 0 0;  background-size: 100% 100%; border-radius: 10px; border: 2px solid #345A53; box-shadow: 3px 3px 9px #000; -khtml-user-drag: element; -webkit-user-drag: element;cursor:move;}
