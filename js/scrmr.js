@@ -100,8 +100,8 @@
 
             on(audio, "ended", function(e){
                 off(audio, "ended");
-                boo.style.display = "none";
                 body.removeChild(scrmr[0]);
+                boo.removeChild(audio);
                 body.removeChild(boo);
                 Scrmr = u;
                 var script = $("head script[src*=scrmr]")[0];
@@ -123,9 +123,11 @@
                             break;
                         case 'scroll':
                             on(d, 'scroll', function(){
+                                off(d,'scroll');
                                 booo();
                             });
                             on(Scrmr.e, 'scroll', function(){
+                                off(Scrmr.e, 'scroll');
                                 booo();
                             });
                             break;
@@ -136,6 +138,8 @@
                                 if (e.preventDefault) {
                                     e.preventDefault();
                                 }
+
+                                off(Scrmr.e, Scrmr.trigger);
 
                                 booo();
 
@@ -155,6 +159,7 @@
             });
 
             function booo(){
+
                 boo.style.display = "block";
                 audio.play();
             }
@@ -186,7 +191,7 @@
 
              setTimeout(function(){
                  toggleClass(scrmr, "scrmr-hidden");
-             }, 200);
+             }, 500);
         };
 
     function $(selector){
