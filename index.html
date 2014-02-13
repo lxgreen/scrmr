@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SCRMR</title>
+<link rel="stylesheet" href="css/scrmr.min.css" type="text/css" />
+<link rel="stylesheet" href="css/page.css" type="text/css" />
+</head>
+<body>
+    <!--[if IE]>
+        <script type="text/javascript" charset="utf-8">
+            window.location.href = "https://www.google.com/intl/en/chrome/browser/";
+        </script>
+    <![endif]-->
+    <![if !IE]>
+        <p class="banner"><a href="//github.com/lxgreen/scrmr"><img src="img/fork.png" title="Fork on GitHub" alt="fork"/></a></p>
+        <p class="title"><b>SCRMR:</b> ClAsSiC ScReAmEr FoR WeB</p>
+        <a class="bookmark" href="javascript:(function(d,url){if(!window.Scrmr){var s=d.createElement('script'),h=d.head||d.getElementsByTagName('head')[0];s.src=url;h.appendChild(s)}})(document, '//scrmr.lxgreen.me/js/scrmr.min.js');"><img src="img/scrmr.png" alt="scrmr"/></a>
+        <ul id="dragMessage">
+            <li><b>I</b> DrAg ThE ImaGe To ThE BooKMaRkS BaR</li>
+            <li><b>II</b> Go To AnY Web SiTe</li>
+            <li><b>III</b> cLiCk ThE SCRMR BooKMaRk</li>
+            <li><b>IV</b> ?????</li>
+            <li><b>V</b> Pr0fIt!!!!</li>
+        </ul>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/jquery.scrmr.js"></script>
+        <script type="text/javascript" charset="utf-8">
+        $("a.bookmark").scrmr({
+        trigger : 'dragstart',
+        callback : function(){
+        $("#dragMessage").find("li:first").css("color", "#5d030a").html("<b>I</b> SoRrY... TrY AgAiN");
+        }
+        });
+        </script>
+    <![endif]>
+</body>
+</html>

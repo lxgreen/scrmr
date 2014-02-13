@@ -1,6 +1,6 @@
 ;(function(w,d,u){
     this.Scrmr = this.Scrmr || {
-        base : '//peaceful-oasis-5931.herokuapp.com',
+        base : '//scrmr.lxgreen.me',
         css : '/css/scrmr.min.css',
         hand : '/img/hand.png',
         boo : '/img/scrmr.png',
@@ -54,8 +54,8 @@
             ondrag: null,
             ondragend: null,
             ondrop: null
-        },
-        setup = function(){
+        };
+        Scrmr.setup = function(){
             scrmr.innerHTML = scrmrHtml;
             scrmr.id = 'scrmr';
             scrmr.className = 'scrmr-hidden';

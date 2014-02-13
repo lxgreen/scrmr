@@ -17,8 +17,8 @@ div#scrmr.scrmr-hidden {transform: translateY(-113px);-webkit-transform: transla
 div#scrmr img {display: block;position: absolute;top: 42px;right:0;z-index: 666666; width: 272px; height: 108px;}
 .scrmr-vanish {opacity:1; transition: opacity 0.5s ease; -webkit-transition: opacity 0.5s ease;}
 div#scrmr.scrmr-hidden img {opacity:0;}
-div#scrmr-drag {position: relative; box-sizing: border-box; margin: 9px; width: 144px; height: 81px; background: #bada55 url(../img/scrmr.png) no-repeat 0 0;  background-size: 100% 100%; border-radius: 10px; border: 2px solid #345A53; box-shadow: 3px 3px 9px #000; -khtml-user-drag: element; -webkit-user-drag: element;cursor:move;}
-div#scrmr-drag:hover{border-color: #22d80a;}
+#scrmr-drag {position: relative; box-sizing: border-box; margin: 9px; width: 144px; height: 81px; background: #bada55 url(../img/scrmr.png) no-repeat 0 0;  background-size: 100% 100%; border-radius: 10px; border: 2px solid #345A53; box-shadow: 3px 3px 9px #000; -khtml-user-drag: element; -webkit-user-drag: element;cursor:move;}
+#scrmr-drag:hover{border-color: #22d80a;}
 div#scrmr label { text-shadow: -3px -3px 1px #000000;  position: absolute; color: #22D80A; }
 div#scrmr label#i {top: 71px; left: 0;}
 div#scrmr label#ii {top: 8px; left: 200px;}
