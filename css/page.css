@@ -1,4 +1,4 @@
-body{ padding: 0; margin: 0; background: #000 url('../img/bg.jpg'); font-family: misfits; font-size: 36px; }
+body{ min-width:800px; padding: 0; margin: 0; background: #000 url('../img/bg.jpg'); font-family: misfits; font-size: 36px; }
 a{ text-decoration: none; color: #5c0209; border:none; }
 a img{ border: none; }
 p, ul{ color: #345a53; text-shadow: -3px -3px 1px #000; }

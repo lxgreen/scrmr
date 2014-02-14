@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>SCRMR</title>
 <link rel="stylesheet" href="css/scrmr.min.css" type="text/css" />
-<link rel="stylesheet" href="css/page.css" type="text/css" />
+<link rel="stylesheet" href="css/page.min.css" type="text/css" />
 </head>
 <body>
     <!--[if IE]>
@@ -24,12 +24,12 @@
             <li><b>V</b> Pr0fIt!!!!</li>
         </ul>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="js/jquery.scrmr.js"></script>
+        <script src="js/scrmr.jquery.min.js"></script>
         <script type="text/javascript" charset="utf-8">
         $("a.bookmark").scrmr({
-        trigger : 'dragstart',
-        callback : function(){
-        $("#dragMessage").find("li:first").css("color", "#5d030a").html("<b>I</b> SoRrY... TrY AgAiN");
+            trigger : 'dragstart',
+            callback : function(){
+                $("#dragMessage").find("li:first").css("color", "#5d030a").html("<b>I</b> SoRrY... TrY AgAiN");
         }
         });
         </script>

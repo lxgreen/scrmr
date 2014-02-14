@@ -12,7 +12,7 @@
     font-style: normal;
 }
 
-div#scrmr{transition: transform 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease;-ms-transition: -ms-transform 0.5s ease; min-width:777px; overflow: visible; margin: 0; padding : 0; box-sizing: border-box; width: 100%; z-index: 666666; height: 113px;position: fixed; background: black url('../img/grunge.jpg') repeat; top:0; left:0; bottom: 113px; font-family: misfits; font-size: 32px !important; line-height:32px !important; color: #22D80A; -webkit-touch-ctransformout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none; text-align: left;}
+div#scrmr{direction: ltr !important; transition: transform 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease;-ms-transition: -ms-transform 0.5s ease; min-width:777px; overflow: visible; margin: 0; padding : 0; box-sizing: border-box; width: 100%; z-index: 666666; height: 113px;position: fixed; background: black url('../img/grunge.jpg') repeat; top:0; left:0; bottom: 113px; font-family: misfits; font-size: 32px !important; line-height:32px !important; color: #22D80A; -webkit-touch-ctransformout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none; text-align: left;}
 div#scrmr.scrmr-hidden {transform: translateY(-113px);-webkit-transform: translateY(-113px);-ms-transform: translateY(-113px);}
 div#scrmr img {display: block;position: absolute;top: 42px;right:0;z-index: 666666; width: 272px; height: 108px;}
 .scrmr-vanish {opacity:1; transition: opacity 0.5s ease; -webkit-transition: opacity 0.5s ease;}
