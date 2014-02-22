@@ -247,7 +247,7 @@
     function initDragDrop(el, handlers){
         dragDrop.dragElement = el;
         // TODO: select dropTargets all except #scrmr contents.
-        dragDrop.dropTargets = $("*:not(#scrmr");
+        dragDrop.dropTargets = $("*:not(#scrmr)");
         dragDrop.ondrag = handlers.ondrag;
         dragDrop.ondragend = handlers.ondragend;
         dragDrop.ondrop = handlers.ondrop;
