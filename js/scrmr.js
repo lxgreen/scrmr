@@ -306,6 +306,6 @@
         toggleClass(this, "scrmr-over");
     }
 
-    setup();
+    Scrmr.setup();
 
 })(this,this.document);
