@@ -1,4 +1,4 @@
 scrmr
 =====
 
-Classic screamer triggered by DOM event. Bookmarklet + jQuery plugin.
+Classic screamer for Web
